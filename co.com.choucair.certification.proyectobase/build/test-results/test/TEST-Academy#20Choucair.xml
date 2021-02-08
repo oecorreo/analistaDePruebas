@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Academy Choucair" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-02-08T21:32:21" hostname="LAPTOP-ACDNVFF2" time="16.709">
+  <properties/>
+  <testcase name="Search for a automation course" classname="Academy Choucair" time="16.709">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at net.serenitybdd.core.injectors.EnvironmentDependencyInjector.matchingFieldsIn(EnvironmentDependencyInjector.java:88)
+	at net.serenitybdd.core.injectors.EnvironmentDependencyInjector.injectDependenciesInto(EnvironmentDependencyInjector.java:32)
+	at net.thucydides.core.steps.PageObjectDependencyInjector.injectDependenciesInto(PageObjectDependencyInjector.java:28)
+	at net.thucydides.core.steps.StepFactory.injectOtherDependenciesInto(StepFactory.java:181)
+	at net.thucydides.core.steps.StepFactory.instantiateUniqueStepLibraryFor(StepFactory.java:198)
+	at net.thucydides.core.steps.StepFactory.getUniqueStepLibraryFor(StepFactory.java:130)
+	at net.serenitybdd.screenplay.Tasks.instrumented(Tasks.java:12)
+	at co.com.choucair.certification.proyectobase.tasks.Search.the(Search.java:18)
+	at co.com.choucair.certification.proyectobase.stepdefinitions.ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(ChoucairAcademyStepDefinitions.java:34)
+	at ✽.he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform(src/test/resources/features/academyChoucair.feature:13)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@73ae659
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@43651ae0
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@434331b4
+feb 08, 2021 4:32:21 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 14104
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+feb 08, 2021 4:32:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Example: {srtUser=1022427734, strPassword=Choucair2021*, strCourse=Recursos Automatizacion Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| <strUser> | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Example: {srtUser=1022427734, strPassword=Choucair2021*, strCourse=Recursos Automatizacion Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| <strUser> | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1165abc9
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@63219072
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Example: {srtUser=1022427734, strPassword=Choucair2021*, strCourse=Recursos Automatizacion Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| <strUser> | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5f3c5d56
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Example: {srtUser=1022427734, strPassword=Choucair2021*, strCourse=Recursos Automatizacion Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| <strUser> | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '<strUser>' into WHERE DO WE WRITE THE USER]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@346796d9
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Example: {srtUser=1022427734, strPassword=Choucair2021*, strCourse=Recursos Automatizacion Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| <strUser> | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '<strUser>' into WHERE DO WE WRITE THE USER, Brandon enters 'Choucair2021*' into where do we write the password]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@413efe3f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Example: {srtUser=1022427734, strPassword=Choucair2021*, strCourse=Recursos Automatizacion Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| <strUser> | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '<strUser>' into WHERE DO WE WRITE THE USER, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Example: {srtUser=1022427734, strPassword=Choucair2021*, strCourse=Recursos Automatizacion Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| <strUser> | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '<strUser>' into WHERE DO WE WRITE THE USER, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Example: {srtUser=1022427734, strPassword=Choucair2021*, strCourse=Recursos Automatizacion Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| <strUser> | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '<strUser>' into WHERE DO WE WRITE THE USER, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3d7d5b83
+[Test worker] ERROR net.thucydides.core.steps.StepFactory - Cannot create StepFactory for  class co.com.choucair.certification.proyectobase.tasks.Search
+java.lang.NoSuchMethodException: co.com.choucair.certification.proyectobase.tasks.Search$ByteBuddy$UZq1AMwP.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.getDeclaredConstructor(Class.java:2178)
+	at net.thucydides.core.steps.StepFactory.createProxyStepLibrary(StepFactory.java:227)
+	at net.thucydides.core.steps.StepFactory.instantiateUniqueStepLibraryFor(StepFactory.java:194)
+	at net.thucydides.core.steps.StepFactory.getUniqueStepLibraryFor(StepFactory.java:130)
+	at net.serenitybdd.screenplay.Tasks.instrumented(Tasks.java:12)
+	at co.com.choucair.certification.proyectobase.tasks.Search.the(Search.java:18)
+	at co.com.choucair.certification.proyectobase.stepdefinitions.ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(ChoucairAcademyStepDefinitions.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:31)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:25)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:118)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:56)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:127)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@77068d
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Search for a automation course:Example: {srtUser=1022427734, strPassword=Choucair2021*, strCourse=Recursos Automatizacion Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| <strUser> | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '<strUser>' into WHERE DO WE WRITE THE USER, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]], When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform
+| strCourse |
+| Recursos Automatizacion Bancolombia |, Then he finds the course called resources Recursos Automatizacion Bancolombia
+| strCourse |
+| Recursos Automatizacion Bancolombia |]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Search for a automation course:Example: {srtUser=1022427734, strPassword=Choucair2021*, strCourse=Recursos Automatizacion Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| <strUser> | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '<strUser>' into WHERE DO WE WRITE THE USER, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]], When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform
+| strCourse |
+| Recursos Automatizacion Bancolombia |, Then he finds the course called resources Recursos Automatizacion Bancolombia
+| strCourse |
+| Recursos Automatizacion Bancolombia |]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Search for a automation course:Example: {srtUser=1022427734, strPassword=Choucair2021*, strCourse=Recursos Automatizacion Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| <strUser> | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '<strUser>' into WHERE DO WE WRITE THE USER, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]], When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform
+| strCourse |
+| Recursos Automatizacion Bancolombia |, Then he finds the course called resources Recursos Automatizacion Bancolombia
+| strCourse |
+| Recursos Automatizacion Bancolombia |]]
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Search for a automation course
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform | strCourse | | Recursos Automatizacion Bancolombia |
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+]]></system-err>
+</testsuite>
