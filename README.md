@@ -1,5 +1,5 @@
 # analistaDePruebas
 Guías Técnicas / Choucair Testing
 
-#Autor
+# autor
 Oscar Eduardo Calderón.
